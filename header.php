@@ -13,15 +13,15 @@
                 <img class="logo" src="./app/img/logo.png" alt="PhotoStudio">
                 <nav>
                     <ul class="nav">
-                        <li class="nav_links"><a href="index.php">головна</a></li>
-                        <li class="nav_links"><a href="art_one.php">інтер'єр</a></li>
-                        <li class="nav_links"><a href="price.php">ціни</a></li>
-                        <li class="nav_links"><a href="book.php">бронювання</a></li>
-                        <li class="nav_links"><a href="callback.php">зв'язок із нами</a></li>
+                        <li class="nav_links"><a href="/index.php">головна</a></li>
+                        <li class="nav_links"><a href="/art_one.php">інтер'єр</a></li>
+                        <li class="nav_links"><a href="/price.php">ціни</a></li>
+                        <li class="nav_links"><a href="/book.php">бронювання</a></li>
+                        <li class="nav_links"><a href="/callback.php">зв'язок із нами</a></li>
                     </ul>
                 </nav>
                 <div class="languges">
-                    <a href="#">ua</a>                
+                    <a href="/admin.php">ua</a>                
                     <a href="#">ru</a>
                 </div>
             </div>

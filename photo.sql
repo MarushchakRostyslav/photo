@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1
--- Время создания: Май 22 2021 г., 22:22
+-- Время создания: Май 23 2021 г., 00:07
 -- Версия сервера: 10.4.19-MariaDB
 -- Версия PHP: 8.0.6
 
@@ -36,14 +36,6 @@ CREATE TABLE `books` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Дамп данных таблицы `books`
---
-
-INSERT INTO `books` (`id`, `surname`, `name`, `phone`, `comment`) VALUES
-(1, 'Марущак', 'Ростислав', '0993698594', 'dasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasas'),
-(2, 'Марущак', 'Ростислав', '0993698594', 'dasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasas');
-
---
 -- Индексы сохранённых таблиц
 --
 
@@ -61,7 +53,7 @@ ALTER TABLE `books`
 -- AUTO_INCREMENT для таблицы `books`
 --
 ALTER TABLE `books`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
